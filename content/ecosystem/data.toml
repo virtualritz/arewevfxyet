@@ -356,6 +356,11 @@ name = "nuklear-rust"
 source = "crates"
 categories = ["ui"]
 
+[[item]]
+name = "nsi"
+source = "crates"
+categories = ["3drendering"]
+
 [[items]]
 name = "obj"
 source = "crates"
@@ -394,6 +399,11 @@ categories = ["materials"]
 
 [[items]]
 name = "opensubdiv"
+source = "crates"
+categories = ["mesh"]
+
+[[items]]
+name = "opensubdiv-petite"
 source = "crates"
 categories = ["mesh"]
 
