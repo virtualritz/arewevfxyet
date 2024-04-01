@@ -4,6 +4,11 @@ source = "crates"
 categories = ["textrendering"]
 
 [[items]]
+name = "after-effects"
+source = "crates"
+categories = ["tools"]
+
+[[items]]
 name = "alembic"
 source = "crates"
 categories = ["caches", "mesh"]
@@ -17,6 +22,21 @@ categories = ["3drendering"]
 name = "assets_manager"
 source = "crates"
 categories = ["tools"]
+
+[[items]]
+name = "basis-universal"
+source = "crates"
+categories = ["tools"]
+
+[[items]]
+name = "setzer22/blackjack"
+source = "github"
+categories = ["mesh"]
+
+[[items]]
+name = "blade"
+source = "crates"
+categories = ["mesh"]
 
 [[items]]
 name = "basis-universal"
@@ -42,6 +62,11 @@ categories = ["mesh", "tools"]
 name = "bvh"
 source = "crates"
 categories = ["math"]
+
+[[items]]
+name = "cavalier_contours"
+source = "crates"
+categories = ["2drendering", "tools"]
 
 [[items]]
 name = "cgmath"
@@ -76,12 +101,17 @@ categories = ["scripting"]
 [[items]]
 name = "crevice"
 source = "crates"
-categories = ["material"]
+categories = ["materials"]
 
 [[items]]
 name = "crevice"
 source = "crates"
-categories = ["material"]
+categories = ["materials"]
+
+[[items]]
+name = "delight-helpers"
+source = "crates"
+categories = ["3drendering"]
 
 [[items]]
 name = "density-mesh-core"
@@ -99,9 +129,14 @@ source = "crates"
 categories = ["math"]
 
 [[items]]
-name = "dyon"
+name = "dl-openvdb-query"
 source = "crates"
-categories = ["scripting"]
+categories = ["tools"]
+
+[[items]]
+name = "dnglab/dnglab"
+source = "github"
+categories = ["tools"]
 
 [[items]]
 name = "dyon"
@@ -116,7 +151,7 @@ categories = ["ui"]
 [[items]]
 name = "EmbarkStudios/rust-gpu"
 source = "github"
-categories = ["material"]
+categories = ["materials"]
 
 [[items]]
 name = "euc"
@@ -134,9 +169,19 @@ source = "crates"
 categories = ["math"]
 
 [[items]]
+name = "exr"
+source = "crates"
+categories = ["tools"]
+
+[[items]]
 name = "ezing"
 source = "crates"
 categories = ["tools"]
+
+[[items]]
+name = "fast-surface-nets"
+source = "crates"
+categories = ["mesh"]
 
 [[items]]
 name = "fbxcel-dom"
@@ -144,9 +189,19 @@ source = "crates"
 categories = ["3dformatloaders"]
 
 [[items]]
+name = "fidget"
+source = "crates"
+categories = ["mesh", "tools"]
+
+[[items]]
 name = "fontdue"
 source = "crates"
 categories = ["textrendering"]
+
+[[items]]
+name = "frame-sequence"
+source = "crates"
+categories = ["tools"]
 
 [[items]]
 name = "fungui"
@@ -268,12 +323,12 @@ categories = ["ui"]
 [[items]]
 name = "include-merkle"
 source = "crates"
-categories = ["material"]
+categories = ["materials"]
 
 [[items]]
 name = "inline-spirv"
 source = "crates"
-categories = ["material"]
+categories = ["materials"]
 
 [[items]]
 name = "ketos"
@@ -284,6 +339,11 @@ categories = ["scripting"]
 name = "keyframe"
 source = "crates"
 categories = ["tools"]
+
+[[items]]
+name = "libfive"
+source = "crates"
+categories = ["mesh", "tools"]
 
 [[items]]
 name = "liquidfun"
@@ -309,6 +369,11 @@ categories = ["2drendering"]
 name = "materialx"
 source = "crates"
 categories = ["materials"]
+
+[[items]]
+name = "meshless_voronoi"
+source = "crates"
+categories = ["tools"]
 
 [[items]]
 name = "meshopt"
@@ -342,6 +407,11 @@ categories = ["scripting"]
 homepage_url = "https://mun-lang.org"
 
 [[items]]
+name = "nanogltf"
+source = "crates"
+categories = ["3dformatloaders"]
+
+[[items]]
 name = "nalgebra"
 source = "crates"
 categories = ["math"]
@@ -357,6 +427,16 @@ source = "crates"
 categories = ["ui"]
 
 [[items]]
+name = "nsi"
+source = "crates"
+categories = ["3drendering"]
+
+[[items]]
+name = "oculante"
+source = "crates"
+categories = ["tools"]
+
+[[items]]
 name = "obj"
 source = "crates"
 categories = ["3dformatloaders"]
@@ -367,8 +447,8 @@ source = "crates"
 categories = ["3dformatloaders"]
 
 [[items]]
-name = "olson-sean-k/plexus"
-source = "github"
+name = "plexus"
+source = "crates"
 categories = ["mesh"]
 homepage_url = "https://plexus.rs"
 
@@ -391,6 +471,11 @@ categories = ["2drendering"]
 name = "openshadinglanguage"
 source = "crates"
 categories = ["materials"]
+
+[[items]]
+name = "opensubdiv-petite"
+source = "crates"
+categories = ["mesh"]
 
 [[items]]
 name = "opensubdiv"
@@ -483,6 +568,11 @@ source = "crates"
 categories = ["physics"]
 
 [[items]]
+name = "rawler"
+source = "crates"
+categories = ["tools"]
+
+[[items]]
 name = "rectangle-pack"
 source = "crates"
 categories = ["tools"]
@@ -501,6 +591,11 @@ categories = ["3drendering"]
 name = "rhai"
 source = "crates"
 categories = ["scripting"]
+
+[[items]]
+name = "ribir"
+source = "crates"
+categories = ["ui"]
 
 [[items]]
 name = "rlua"
@@ -560,17 +655,22 @@ categories = ["scripting"]
 [[items]]
 name = "shaderc"
 source = "crates"
-categories = ["material"]
+categories = ["materials"]
+
+[[items]]
+name = "slvs"
+source = "crates"
+categories = ["tools"]
 
 [[items]]
 name = "spirq"
 source = "crates"
-categories = ["material"]
+categories = ["materials"]
 
 [[items]]
 name = "spirv-reflect"
 source = "crates"
-categories = ["material"]
+categories = ["materials"]
 
 [[items]]
 name = "splines"
@@ -623,6 +723,16 @@ source = "crates"
 categories = ["math"]
 
 [[items]]
+name = "velato"
+source = "crates"
+categories = ["2drendering"]
+
+[[items]]
+name = "vello"
+source = "crates"
+categories = ["2drendering"]
+
+[[items]]
 name = "vek"
 source = "crates"
 categories = ["math"]
@@ -648,6 +758,11 @@ source = "crates"
 categories = ["3drendering"]
 
 [[items]]
+name = "vtracer"
+source = "crates"
+categories = ["mesh", "2drendering"]
+
+[[items]]
 name = "wavefront_obj"
 source = "crates"
 categories = ["3dformatloaders"]
@@ -656,6 +771,11 @@ categories = ["3dformatloaders"]
 name = "wgpu"
 source = "crates"
 categories = ["3drendering"]
+
+[[items]]
+name = "fralonra/wgshadertoy"
+source = "github"
+categories = ["materials", "2drendering", "3drendering"]
 
 [[items]]
 name = "winit"

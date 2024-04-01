@@ -1,10 +1,10 @@
-# README
+# Are We VFX Yet
 
 ## What is this?
 
 The Rust community has a number of websites dedicated to keeping track of the state of the ecosystem for specific purposes. (e.g. [arewewebyet](https://www.arewewebyet.org) and [arewelearningyet](https://www.arewelearningyet.com))
 
-This one tracks the state of the ecosystem for Game Development in Rust.
+This one tracks the state of the ecosystem for VFX in Rust.
 
 ## Contribute
 
@@ -75,7 +75,7 @@ If you're comfortable with semantic-ui and Zola please reach out to us in the Is
 
 It's very likely there are mistakes around, if you find one please file an issue.
 
-*Thanks for helping us map the Rust game development ecosystem!*
+*Thanks for helping us map the Rust VFX ecosystem!*
 
 ### Thanks
 
